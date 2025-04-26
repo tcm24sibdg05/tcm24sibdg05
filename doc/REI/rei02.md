@@ -58,6 +58,8 @@ Assim, conforme o perfil, o utilizador poderá ter acesso às seguintes funciona
 - O sistema garante que cada utilizador apenas tem acesso às funcionalidades que correspondem ao seu perfil.
 - Funcionários da biblioteca têm um nível de acesso superior, essencial para a gestão e manutenção de todo o acervo.
 
+---
+
  [< Anterior](rei00.md) | [^ Principal](/../../) | [Seguinte >](rei03.md)
 :--- | :---: | ---: 
 
