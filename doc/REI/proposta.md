@@ -15,3 +15,9 @@ Os utilizadores podem efetuar empréstimos de livros. Um empréstimo é identifi
 Os funcionários da biblioteca são responsáveis pela gestão dos empréstimos, das devoluções e das reservas dos livros. Cada funcionário é identificado por um nome, código interno e função. Além destas tarefas, os funcionários também podem ser responsáveis pela aquisição de novos títulos, catalogação de obras, organização física do acervo e atendimento ao público.
 
 Um livro pode ser reservado por um utilizador caso não esteja disponível no momento. As reservas são registadas com data e hora e expiram após um determinado período. A cada reserva está associado um código. Em alguns casos, a biblioteca pode permitir a criação de listas de espera, em que os utilizadores são atendidos por ordem de pedido. Além disso, o sistema de reservas pode incluir notificações automáticas por e-mail ou SMS para informar o utilizador quando o exemplar estiver disponível. 
+
+---
+
+[< Anterior] | [^ Principal](/../../) | [Próximo >](proposta.md)
+:--- | :---: | ---: 
+
