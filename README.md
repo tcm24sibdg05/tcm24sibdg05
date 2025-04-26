@@ -8,7 +8,6 @@ O nosso objetivo é desenvolver um sistema de base de dados para melhorar a gest
 
 ## Organização do Repositório
 
-* O **código** está em [Pasta code](code/).
 * Os **relatórios** estão em [Pasta doc](doc/).
 
 
@@ -23,7 +22,7 @@ O nosso objetivo é desenvolver um sistema de base de dados para melhorar a gest
 ### Proposta
 * PROPOSTA: [Proposta](doc/Proposta.md)
 ### Relatório de Especificação de Informação
-* REI: [Apresentação do Projeto](doc/Apresentação_do_Projeto.md)
+* REI: [Relatório de Especificação de Informação](doc/REI.md)
 
 ## Grupo
 * Catarina Pinto Moutinho [@A044887](https://github.com/A044887)
