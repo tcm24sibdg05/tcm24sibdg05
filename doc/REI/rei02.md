@@ -12,8 +12,7 @@ Assim, conforme o perfil, o utilizador poderá ter acesso às seguintes funciona
 
 - **Aluno**
 - **Professor**
-- **Funcionário da Universidade**
-- **Funcionário da Biblioteca** (perfil administrativo)
+- **Funcionário da Biblioteca**
 
 ---
 
