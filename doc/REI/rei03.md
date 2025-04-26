@@ -2,7 +2,7 @@
 
 ### Diagrama Entidade-Associação (EA)
 
-<img src="img/biblioteca.png"/>
+<img src="../img/biblioteca.png" width="1200" />
 
 # Entidades e Associações
 
