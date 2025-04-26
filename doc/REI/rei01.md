@@ -17,7 +17,7 @@ Com a crescente procura pelos serviços da biblioteca, torna-se cada vez mais ne
 
 ## Modelação do problema
 
-* Para a modelação do problema, foram assumidos os seguintes pressupostos:
+Para a modelação do problema, foram assumidos os seguintes pressupostos:
 * Cada utilizador pode efetuar múltiplos empréstimos e reservas.
 * Um exemplar de livro pertence exclusivamente a um único livro.
 * Cada exemplar pode ser emprestado várias vezes ao longo do tempo.
