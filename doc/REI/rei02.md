@@ -18,7 +18,7 @@ Assim, conforme o perfil, o utilizador poderá ter acesso às seguintes funciona
 
 ## Funcionalidades (Casos de Uso)
 
-### 1. Aluno / Professor / Funcionário da Universidade
+### 1. Aluno / Professor
 *(Perfil de utilizador geral)*
 
 - Consultar o catálogo de livros disponíveis.
