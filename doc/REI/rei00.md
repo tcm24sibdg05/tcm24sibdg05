@@ -2,16 +2,15 @@
 
 ## Índice
 
-:[Introdução](rei01.md)  
-:[Especificação de Requisitos](rei02.md)  
-:[Esquema Conceptual](rei03.md)  
+* [Introdução](rei01.md)  
+* [Especificação de Requisitos](rei02.md)  
+* [Esquema Conceptual](rei03.md)  
 
-## Group 05
+## Grupo 05
 
-_Don't forget to add the group elements_
-
-* Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
-* Other team members
+* Catarina Pinto Moutinho [@A044887](https://github.com/A044887)
+* Francisca Sofia Abreu Da Silva [@A045955](https://github.com/A045955)
+* Marcela Silva Almeida [@a044499MarcelaAlmeida](https://github.com/a044499MarcelaAlmeida)
 
 ---
 
