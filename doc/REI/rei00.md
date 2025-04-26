@@ -14,5 +14,5 @@
 
 ---
 
-< Anterior | [^ Principal](/../../) | [Próximo >](rei01.md)
+(proposta.md)[< Anterior] | [^ Principal](/../../) | [Próximo >](rei01.md)
 :--- | :---: | ---: 
