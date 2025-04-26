@@ -18,6 +18,6 @@ Um livro pode ser reservado por um utilizador caso não esteja disponível no mo
 
 ---
 
-[< Anterior] | [^ Principal](/../../) | [Próximo >](proposta.md)
+[< Anterior] | [^ Principal](/../../) | [Próximo >](rei00.md)
 :--- | :---: | ---: 
 
