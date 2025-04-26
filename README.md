@@ -20,9 +20,9 @@ O nosso objetivo é desenvolver um sistema de base de dados para melhorar a gest
 ## Relatórios
 
 ### Proposta
-* PROPOSTA: [Proposta](doc/Proposta.md)
+* PROPOSTA: [Proposta](doc/REI/Proposta.md)
 ### Relatório de Especificação de Informação
-* REI: [Relatório de Especificação de Informação](doc/REI.md)
+* REI: [Relatório de Especificação de Informação](doc/REI/rei00.md)
 
 ## Grupo
 * Catarina Pinto Moutinho [@A044887](https://github.com/A044887)
