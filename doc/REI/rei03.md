@@ -1,6 +1,6 @@
 # Esquema Conceptual
 
-## Diagrama Entidade-Associação (EA)
+### Diagrama Entidade-Associação (EA)
 
 
 # Entidades e Associações
