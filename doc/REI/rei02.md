@@ -54,25 +54,6 @@ Assim, conforme o perfil, o utilizador poderá ter acesso às seguintes funciona
 
 ---
 
-## Resumo de Permissões
-
-| Funcionalidade                                | Aluno / Professor / Funcionário Univ. | Funcionário da Biblioteca |
-|-----------------------------------------------|----------------------------------------|----------------------------|
-| Consultar catálogo                            | ✅                                      | ✅                          |
-| Efetuar reservas                              | ✅                                      | ✅                          |
-| Renovar empréstimos                           | ✅                                      | ✅                          |
-| Consultar histórico de empréstimos            | ✅                                      | ✅                          |
-| Consultar penalizações                        | ✅                                      | ✅                          |
-| Receber notificações                          | ✅                                      | ✅                          |
-| Inserir / atualizar livros                    | ❌                                      | ✅                          |
-| Registar empréstimos e devoluções             | ❌                                      | ✅                          |
-| Registar e gerir penalizações                 | ❌                                      | ✅                          |
-| Gerir reservas (cancelar, gerir lista de espera) | ❌                                   | ✅                          |
-| Gerar relatórios                              | ❌                                      | ✅                          |
-| Gerir contas de utilizadores                  | ❌                                      | ✅                          |
-
----
-
 **Notas:**
 - O acesso dos utilizadores é feito através de login autenticado com número de utilizador e palavra-passe.
 - O sistema garante que cada utilizador apenas tem acesso às funcionalidades que correspondem ao seu perfil.
