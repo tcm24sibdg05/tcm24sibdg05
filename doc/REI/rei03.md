@@ -57,4 +57,9 @@ Está relacionada a empréstimos que originaram a infração.
 - Uma reserva expira automaticamente se não for convertida num empréstimo dentro do prazo definido.
 - Funcionários devem validar manualmente o estado do exemplar no momento da devolução para verificar danos.
 
+---
+
+  | [< Anterior](REI02.md) | [^ Principal](../../README.md) |
+|:----------------------------------:|:----------------------------------:|
+
 
