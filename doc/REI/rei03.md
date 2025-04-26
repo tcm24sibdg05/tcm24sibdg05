@@ -1,29 +1,6 @@
 # Esquema Conceptual
 
-## Modelo Entidade-Associação (EA)
-
-### Entidades:
-LIVRO(titulo, autor, <u>codigoISBN<u>, anoDePublicacao, edicao, genero)
-EXEMPLAR(<u>numeroDeCopia<u>, estado)
-UTILIZADOR(<u>numeroDeUtilizador<u>, nome, tipo, contacto)
-FUNCIONARIO(nome, <u>codigoInterno<u>, funcao)
-EMPRESTIMO(dataDeInicio, <u>codigo<u>, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
-RESERVA(<u>codigo<u>, data, hora, dataDeExpiracao)
-LOCALIZACAO(<u>corredor<u>, estante, prateleira)
-PENALIZACAO(<u>codigoDePenalizacao<u>, tipo, data, motivo)
- 
-### Associações:
-	possui(LIVRO, EXEMPLAR)  				1:N  total/total
-	localiza(EXEMPLAR, LOCALIZACAO)  			1:1  total/total
-	efetuaEmprestimo(UTILIZADOR, EMPRESTIMO)  	1:N  total/total
-	registaEmprestimo(FUNCIONARIO, EMPRESTIMO)  	1:N  total/total
-	empresta(EMPRESTIMO, EXEMPLAR)  			1:1  total/total
-	efetuaReserva(UTILIZADOR, RESERVA)  			1:N  total/parcial
-	reserva(RESERVA, LIVRO) 					1:N  total/total
-	registaReserva(FUNCIONARIO, RESERVA)  		1:N  total/total
-	geraPenalizacao(EMPRESTIMO, PENALIZACAO)  	1:N  parcial/total
-
-
+## Diagrama Entidade-Associação (EA)
 
 
 # Entidades e Associações
