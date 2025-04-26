@@ -20,7 +20,7 @@ O nosso objetivo é desenvolver um sistema de base de dados para melhorar a gest
 ## Relatórios
 
 ### Proposta
-* PROPOSTA: [Proposta](doc/REI/Proposta.md)
+* PROPOSTA: [Proposta](doc/REI/proposta.md)
 ### Relatório de Especificação de Informação
 * REI: [Relatório de Especificação de Informação](doc/REI/rei00.md)
 
