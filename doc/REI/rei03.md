@@ -3,14 +3,14 @@
 ## Modelo Entidade-Associação (EA)
 
 ### Entidades:
-	LIVRO(titulo, autor, <u>codigoISBN<u>, anoDePublicacao, edicao, genero)
-	EXEMPLAR(<u>numeroDeCopia<u>, estado)
-	UTILIZADOR(<u>numeroDeUtilizador<u>, nome, tipo, contacto)
-	FUNCIONARIO(nome, <u>codigoInterno<u>, funcao)
-	EMPRESTIMO(dataDeInicio, <u>codigo<u>, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
-	RESERVA(<u>codigo<u>, data, hora, dataDeExpiracao)
-	LOCALIZACAO(<u>corredor<u>, estante, prateleira)
-	PENALIZACAO(<u>codigoDePenalizacao<u>, tipo, data, motivo)
+LIVRO(titulo, autor, <u>codigoISBN<u>, anoDePublicacao, edicao, genero)
+EXEMPLAR(<u>numeroDeCopia<u>, estado)
+UTILIZADOR(<u>numeroDeUtilizador<u>, nome, tipo, contacto)
+FUNCIONARIO(nome, <u>codigoInterno<u>, funcao)
+EMPRESTIMO(dataDeInicio, <u>codigo<u>, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
+RESERVA(<u>codigo<u>, data, hora, dataDeExpiracao)
+LOCALIZACAO(<u>corredor<u>, estante, prateleira)
+PENALIZACAO(<u>codigoDePenalizacao<u>, tipo, data, motivo)
  
 ### Associações:
 	possui(LIVRO, EXEMPLAR)  				1:N  total/total
