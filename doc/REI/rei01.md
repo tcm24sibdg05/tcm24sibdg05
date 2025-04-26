@@ -13,6 +13,7 @@ Outro ponto importante é a organização física dos livros. No sistema, cada e
 
 Com a crescente procura pelos serviços da biblioteca, torna-se cada vez mais necessário apostar na modernização dos processos internos e na digitalização da gestão do acervo. A nossa solução pretende responder a estas necessidades, promovendo um ambiente mais organizado, tecnológico e adaptado às exigências atuais da comunidade académica. Este projeto, ao focar-se tanto nas necessidades dos utilizadores como dos funcionários, garantirá uma melhoria global da experiência de utilização da Biblioteca Universitária, elevando o seu padrão de qualidade e eficiência.
 
+---
 
 ## Modelação do problema
 
