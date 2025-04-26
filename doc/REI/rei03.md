@@ -1,6 +1,28 @@
 # Esquema Conceptual
 
-## Introdução
+## Modelo Entidade-Associação (EA)
+
+### Entidades:
+	LIVRO(titulo, autor, <u>codigoISBN<u>, anoDePublicacao, edicao, genero)
+	EXEMPLAR(<u>numeroDeCopia<u>, estado)
+	UTILIZADOR(<u>numeroDeUtilizador<u>, nome, tipo, contacto)
+	FUNCIONARIO(nome, <u>codigoInterno<u>, funcao)
+	EMPRESTIMO(dataDeInicio, <u>codigo<u>, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
+	RESERVA(<u>codigo<u>, data, hora, dataDeExpiracao)
+	LOCALIZACAO(<u>corredor<u>, estante, prateleira)
+	PENALIZACAO(<u>codigoDePenalizacao<u>, tipo, data, motivo)
+ 
+### Associações:
+	possui(LIVRO, EXEMPLAR)  				1:N  total/total
+	localiza(EXEMPLAR, LOCALIZACAO)  			1:1  total/total
+	efetuaEmprestimo(UTILIZADOR, EMPRESTIMO)  	1:N  total/total
+	registaEmprestimo(FUNCIONARIO, EMPRESTIMO)  	1:N  total/total
+	empresta(EMPRESTIMO, EXEMPLAR)  			1:1  total/total
+	efetuaReserva(UTILIZADOR, RESERVA)  			1:N  total/parcial
+	reserva(RESERVA, LIVRO) 					1:N  total/total
+	registaReserva(FUNCIONARIO, RESERVA)  		1:N  total/total
+	geraPenalizacao(EMPRESTIMO, PENALIZACAO)  	1:N  parcial/total
+
 
 
 
@@ -48,8 +70,6 @@ Está relacionada a empréstimos que originaram a infração.
 ---
 
 # Regras de Negócio Adicionais (Restrições)
-
-As seguintes regras de negócio foram identificadas para garantir a integridade do sistema, mas não são diretamente representáveis no modelo E/A:
 
 - Um exemplar não pode ser emprestado a dois utilizadores simultaneamente.
 - Um exemplar danificado deve ser sinalizado e retirado de circulação até ser reparado ou substituído.
