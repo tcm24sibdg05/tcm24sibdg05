@@ -59,7 +59,6 @@ Está relacionada a empréstimos que originaram a infração.
 
 ---
 
-  | [< Anterior](REI02.md) | [^ Principal](../../README.md) |
-|:----------------------------------:|:----------------------------------:|
-
+[< Anterior](rei02.md) | [^ Principal](/../../) | [Próximo >]
+:--- | :---: | ---: 
 
