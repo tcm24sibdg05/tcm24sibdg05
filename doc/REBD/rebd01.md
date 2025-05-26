@@ -30,5 +30,11 @@ Para a modelação do problema, foram assumidos os seguintes pressupostos:
 * Não deverá ser permitido efetuar dois empréstimos em simultâneo do mesmo exemplar para utilizadores diferentes.
   
 ---
+
+# Descrição dos requisitos do utilizador
+
+---
+
+## 
 [< Anterior](rebd00.md) | [^ Principal](/../../) | [Seguinte >](rebd02.md)
 :--- | :---: | ---: 
