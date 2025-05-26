@@ -118,3 +118,115 @@ Registo dos funcionários da biblioteca.
 |codigoInterno | Código único do funcionário | INT, PRIMARY KEY, AUTO_INCREMENT   | -            | Sim         | Não  |
 | nome   | Nome do funcionário | VARCHAR(255) NOT NULL   | -            | Não   | Não  |
 | funcao | Função (ex: Bibliotecário) | VARCHAR(100) NOT NULL | -            | Não | Não |
+
+
+
+## Vistas
+
+---
+
+## `emprestimos_ativos`
+
+**Objetivo:** Consultar todos os empréstimos ativos (ainda não devolvidos), com dados do utilizador, livro e exemplar.
+
+```sql
+CREATE VIEW emprestimos_ativos AS
+SELECT 
+    e.codigo AS id_emprestimo,
+    e.dataDeInicio,
+    e.dataDeDevolucaoPrevista,
+    u.nome AS nome_utilizador,
+    l.titulo AS livro,
+    ex.numeroDeCopia,
+    ex.estado
+FROM Emprestimo e
+JOIN Utilizador u ON e.numeroDeUtilizador = u.numeroDeUtilizador
+JOIN Livro l ON e.codigoISBN = l.codigoISBN
+JOIN Exemplar ex ON e.codigoISBN = ex.codigoISBN AND e.numeroDeCopia = ex.numeroDeCopia
+WHERE e.dataDeDevolucaoReal IS NULL;
+```
+---
+
+## `emprestimos_ativos`
+
+**Objetivo:** Consultar todos os empréstimos ativos (ainda não devolvidos), com dados do utilizador, livro e exemplar.
+
+```sql
+CREATE VIEW emprestimos_ativos AS
+SELECT 
+    e.codigo AS id_emprestimo,
+    e.dataDeInicio,
+    e.dataDeDevolucaoPrevista,
+    u.nome AS nome_utilizador,
+    l.titulo AS livro,
+    ex.numeroDeCopia,
+    ex.estado
+FROM Emprestimo e
+JOIN Utilizador u ON e.numeroDeUtilizador = u.numeroDeUtilizador
+JOIN Livro l ON e.codigoISBN = l.codigoISBN
+JOIN Exemplar ex ON e.codigoISBN = ex.codigoISBN AND e.numeroDeCopia = ex.numeroDeCopia
+WHERE e.dataDeDevolucaoReal IS NULL;
+```
+
+---
+
+## `reservas_pendentes`
+
+**Objetivo:** Consultar todas as reservas ainda válidas (não expiradas), com nome do utilizador e título do livro.
+
+```sql
+CREATE VIEW reservas_pendentes AS
+SELECT
+    r.codigo AS id_reserva,
+    r.data,
+    r.hora,
+    r.dataDeExpiracao,
+    u.nome AS nome_utilizador,
+    l.titulo AS livro
+FROM Reserva r
+JOIN Utilizador u ON r.numeroDeUtilizador = u.numeroDeUtilizador
+JOIN Livro l ON r.codigoISBN = l.codigoISBN
+WHERE r.dataDeExpiracao >= CURDATE();
+```
+
+---
+
+## `historico_utilizador`
+
+**Objetivo:** Ver o histórico completo de empréstimos e penalizações por utilizador.
+
+```sql
+CREATE VIEW historico_utilizador AS
+SELECT 
+    u.nome AS nome_utilizador,
+    l.titulo AS livro,
+    e.dataDeInicio,
+    e.dataDeDevolucaoPrevista,
+    e.dataDeDevolucaoReal,
+    p.tipo AS tipo_penalizacao,
+    p.motivo
+FROM Utilizador u
+JOIN Emprestimo e ON u.numeroDeUtilizador = e.numeroDeUtilizador
+JOIN Livro l ON e.codigoISBN = l.codigoISBN
+LEFT JOIN Penalizacao p ON e.codigo = p.codigoEmprestimo;
+```
+
+---
+
+## `livros_danificados`
+
+**Objetivo:** Consultar todos os exemplares danificados, com título e localização física.
+
+```sql
+CREATE VIEW livros_danificados AS
+SELECT 
+    l.titulo,
+    ex.numeroDeCopia,
+    loc.corredor,
+    loc.estante,
+    loc.prateleira
+FROM Exemplar ex
+JOIN Livro l ON ex.codigoISBN = l.codigoISBN
+JOIN Localizacao loc ON ex.codigoISBN = loc.codigoISBN AND ex.numeroDeCopia = loc.numeroDeCopia
+WHERE ex.estado = 'Danificado';
+```
