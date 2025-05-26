@@ -4,8 +4,8 @@
 
 ## Relações derivadas do modelo EA
 
-**Cliente**(id_cliente PK, nome, telefone, email)
-- **DF1:** id_cliente → nome, telefone, email
+**LIVRO**(titulo, autor, codigoISBN, anoDePublicacao, edicao, genero)
+- **DF1:** codigoISBN →  titulo, autor, anoDePublicacao, edicao, genero
 
 **Veiculo**(id_veiculo PK, matricula, marca, modelo, ano, km, vin, #id_cliente → Cliente)
 - **DF2:** id_veiculo → matricula, marca, modelo, ano, km, vin, id_cliente
