@@ -30,9 +30,10 @@
 ## Normalização do Esquema Relacional
 
 ### NF1 - Primeira Forma Normal
--
+-Todas as relações estão em NF1.
 
 ### NF2 - Segunda Forma Normal
+No modelo apresentado:
 -
 
 ### NF3 - Terceira Forma Normal
