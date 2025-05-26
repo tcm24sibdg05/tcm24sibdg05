@@ -104,7 +104,7 @@ Sanções aplicadas aos utilizadores..
 | tipo   | Tipo de penalização |ENUM('Multa', 'Suspensão', 'Bloqueio')   | -            | Não   | Não  |
 | data | Data da penalização  | DATE NOT NULL                            | -            | Não | Não |
 | motivo | Descrição do motivo  | TEXT NOT NULL | - | Não         | Não |
-| codigoEmprestimo| Empréstimo relacionado | INT, FOREIGN KEY → Emprestimo(codigo) | -       | Não        Não  |
+| codigoEmprestimo| Empréstimo relacionado | INT, FOREIGN KEY → Emprestimo(codigo) | -       | Não | Não  |
 
 
 ---
