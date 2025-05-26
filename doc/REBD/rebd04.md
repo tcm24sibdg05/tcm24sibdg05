@@ -87,7 +87,13 @@ CREATE TABLE IF NOT EXISTS Penalizacao (
   codigoEmprestimo INT NOT NULL,
   FOREIGN KEY (codigoEmprestimo) REFERENCES Emprestimo(codigo)
 );
-# DML
+```
+
+---
+## DML
+
+### Inserts (exemplos)
+```sql
 
 INSERT INTO Utilizador (nome, tipo, contacto)
 VALUES ('Joana Silva', 'Aluno', 'joana.silva@mail.com');
@@ -112,12 +118,24 @@ VALUES ('9781234567897', 1, 'B', '2', '3');
 INSERT INTO Emprestimo (dataDeInicio, dataDeDevolucaoPrevista, numeroDeUtilizador, codigoInterno, codigoISBN, numeroDeCopia)
 VALUES ('2025-05-26', '2025-06-02', 1, 1, '9781234567897', 1);
 
--- Inserir uma reserva
+
 INSERT INTO Reserva (data, hora, dataDeExpiracao, numeroDeUtilizador, codigoISBN, codigoInterno)
 VALUES ('2025-05-26', '10:00:00', '2025-06-01', 1, '9781234567897', 1);
 
--- Inserir uma penalização
+
 INSERT INTO Penalizacao (tipo, data, motivo, codigoEmprestimo)
 VALUES ('Multa', '2025-06-10', 'Atraso na devolução', 1);
+
+```
+## CONSULTAS (Exemplos)
+-- Ver localização de um exemplar
+SELECT corredor, estante, prateleira 
+FROM LOCALIZACAO 
+WHERE codigoISBN = '1234567890123' AND numeroDeCopia = 1;
+-- Listar todos os exemplares localizados em um corredor específico
+SELECT * 
+FROM LOCALIZACAO 
+WHERE corredor = 'A';
+
 
 
