@@ -31,7 +31,7 @@ Para a modelação do problema, foram assumidos os seguintes pressupostos:
   
 ---
 
-# C2: Especificação de Requisitos
+# Especificação de Requisitos
 
 ## Acesso e Funcionalidades no Sistema
 
