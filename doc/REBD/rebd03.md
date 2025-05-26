@@ -30,11 +30,16 @@
 ## Normalização do Esquema Relacional
 
 ### NF1 - Primeira Forma Normal
--Todas as relações estão em NF1.
+- Todas as relações estão em NF1.
 
 ### NF2 - Segunda Forma Normal
 No modelo apresentado:
--
+
+- Todas as tabelas possuem uma chave primária simples, com exceção da tabela EXEMPLAR, cuja chave é composta por (codigoISBN, numeroDeCopia).
+- Na tabela EXEMPLAR, o atributo estado depende da totalidade da chave composta, e não apenas de uma parte dela.
+- Ou seja, não existem dependências parciais em nenhuma das tabelas.
+
+Todas as relações estão em NF2. 
 
 ### NF3 - Terceira Forma Normal
 -
