@@ -128,6 +128,7 @@ VALUES ('Multa', '2025-06-10', 'Atraso na devolução', 1);
 
 ```
 ## CONSULTAS (Exemplos)
+```sql
 -- Ver localização de um exemplar
 SELECT corredor, estante, prateleira 
 FROM LOCALIZACAO 
@@ -136,6 +137,6 @@ WHERE codigoISBN = '1234567890123' AND numeroDeCopia = 1;
 SELECT * 
 FROM LOCALIZACAO 
 WHERE corredor = 'A';
-
+```
 
 
