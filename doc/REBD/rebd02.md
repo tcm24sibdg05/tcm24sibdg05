@@ -1,4 +1,4 @@
-# C2:Esquema Conceptual
+# C2: Esquema Conceptual
 
 ### Diagrama Entidade-Associação (EA)
 
