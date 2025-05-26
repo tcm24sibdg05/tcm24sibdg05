@@ -96,7 +96,7 @@ Reservas feitas pelos utilizadores para livros indisponíveis.
 
 ### Penalização
 
-Sanções aplicadas aos utilizadores..
+Sanções aplicadas aos utilizadores.
 
 | Nome        | Descrição                       | Domínio                                             | Por Omissão | Automático | Nulo |
 |-------------|----------------------------------|------------------------------------------------------|--------------|-------------|---|
@@ -109,9 +109,9 @@ Sanções aplicadas aos utilizadores..
 
 ---
 
-### Penalização
+### Funcionário
 
-Sanções aplicadas aos utilizadores..
+Registo dos funcionários da biblioteca.
 
 | Nome        | Descrição                       | Domínio                                             | Por Omissão | Automático | Nulo |
 |-------------|----------------------------------|------------------------------------------------------|--------------|-------------|---|
