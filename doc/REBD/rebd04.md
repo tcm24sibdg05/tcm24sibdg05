@@ -87,4 +87,38 @@ CREATE TABLE IF NOT EXISTS Penalizacao (
   codigoEmprestimo INT NOT NULL,
   FOREIGN KEY (codigoEmprestimo) REFERENCES Emprestimo(codigo)
 );
+# DML
+
+```sql
+INSERT INTO Utilizador (nome, tipo, contacto)
+VALUES ('Joana Silva', 'Aluno', 'joana.silva@mail.com');
+
+
+INSERT INTO Funcionario (nome, funcao)
+VALUES ('Carlos Mendes', 'Bibliotecário');
+
+
+INSERT INTO Livro (codigoISBN, titulo, autor, anoDePublicacao, edicao, genero)
+VALUES ('9781234567897', 'A Máquina do Tempo', 'H.G. Wells', 1895, '1ª', 'Ficção Científica');
+
+
+INSERT INTO Exemplar (codigoISBN, numeroDeCopia, estado)
+VALUES ('9781234567897', 1, 'Disponível');
+
+
+INSERT INTO Localizacao (codigoISBN, numeroDeCopia, corredor, estante, prateleira)
+VALUES ('9781234567897', 1, 'B', '2', '3');
+
+
+INSERT INTO Emprestimo (dataDeInicio, dataDeDevolucaoPrevista, numeroDeUtilizador, codigoInterno, codigoISBN, numeroDeCopia)
+VALUES ('2025-05-26', '2025-06-02', 1, 1, '9781234567897', 1);
+
+-- Inserir uma reserva
+INSERT INTO Reserva (data, hora, dataDeExpiracao, numeroDeUtilizador, codigoISBN, codigoInterno)
+VALUES ('2025-05-26', '10:00:00', '2025-06-01', 1, '9781234567897', 1);
+
+-- Inserir uma penalização
+INSERT INTO Penalizacao (tipo, data, motivo, codigoEmprestimo)
+VALUES ('Multa', '2025-06-10', 'Atraso na devolução', 1);
+
 
