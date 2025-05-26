@@ -29,3 +29,20 @@
 
 ## Normalização do Esquema Relacional
 
+### NF1 - Primeira Forma Normal
+-
+
+### NF2 - Segunda Forma Normal
+-
+
+### NF3 - Terceira Forma Normal
+-
+
+### BCNF
+-
+
+---
+
+| [< Previous](rebd02.md) | [^ Main](../../README.md) | [Next >](rebd04.md) |
+|:----------------------------------:|:----------------------------------:|:----------------------------------:|
+
