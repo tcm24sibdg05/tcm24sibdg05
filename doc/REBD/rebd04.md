@@ -1,4 +1,5 @@
 # DDL
+```sql
 USE biblioteca;
 
 DROP TABLE IF EXISTS Penalizacao;
