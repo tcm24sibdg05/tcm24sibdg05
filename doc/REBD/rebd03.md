@@ -7,19 +7,22 @@
 **LIVRO**(titulo, autor, codigoISBN, anoDePublicacao, edicao, genero)
 - **DF1:** codigoISBN →  titulo, autor, anoDePublicacao, edicao, genero
 
-**Veiculo**(id_veiculo PK, matricula, marca, modelo, ano, km, vin, #id_cliente → Cliente)
-- **DF2:** id_veiculo → matricula, marca, modelo, ano, km, vin, id_cliente
+**EXEMPLAR**(numeroDeCopia, codigoISBN, estado)
+- **DF2:** (codigoISBN, numeroDeCopia) → estado
 
-**Servico**(id_servico PK, tipo_servico, preco)
-- **DF3:** id_servico → tipo_servico, preco
+**UTILIZADOR**(numeroDeUtilizador, nome, tipo, contacto)
+- **DF3:** numeroDeUtilizador →  nome, tipo, contacto
 
-**Agendamento**(id_agendamento PK, data, hora, status_confirmacao, #id_veiculo → Veiculo, #id_servico → Servico)
-- **DF4:** id_agendamento → data, hora, status_confirmacao, id_veiculo, id_servico
+**FUNCIONARIO**(nome, codigoInterno, funcao)
+- **DF4:** codigoInterno →  nome, funcao
 
-**Historico**(id_historico PK, notas, #id_veiculo → Veiculo, #id_servico → Servico, #id_agendamento → Agendamento)
-- **DF5:** id_historico → notas, id_agendamento, id_veiculo, id_servico
-
-**Acao_Recomendada**(id_acao PK, descricao, data, status, #id_veiculo → Veiculo)
-- **DF6:** id_acao → descricao, data, status, id_veiculo
+**EMPRESTIMO**(dataDeInicio, codigo, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
+- **DF5:** codigo → dataDeInicio, dataDeDevoluçãoPrevista, dataDeDevolucaoReal, renovacao, numeroDeUtilizador, codigoInterno, numeroDeCopia, codigoISBN
+- 
+**RESERVA**(codigoDePenalizacao, tipo, data, motivo)
+- **DF6:** codigo → data, hora, dataDeExpiracao
+- 
+**PENALIZACAO**(codigo, data, hora, dataDeExpiracao)
+- **DF7:** codigoDePenalizacao → tipo, data, motivo
 
 ---
