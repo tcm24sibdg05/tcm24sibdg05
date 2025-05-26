@@ -42,10 +42,22 @@ No modelo apresentado:
 Todas as relações estão em NF2. 
 
 ### NF3 - Terceira Forma Normal
--
+No modelo apresentado:
 
-### BCNF
--
+- Em todas as tabelas, os atributos não-chave dependem diretamente da chave primária.
+- Não existem atributos não-chave que determinem outros atributos não-chave.
+- Ou seja, não existem dependências transitivas em nenhuma das relações.
+
+Todas as relações estão em NF3.
+
+### BCNF - Forma Normal de Boyce-Codd
+No modelo apresentado:
+
+- Todas as dependências funcionais têm como determinante a chave primária ou chave candidata de cada tabela.
+- Não existem dependências funcionais onde um atributo que não seja uma chave candidata determine outros atributos.
+- Ou seja, todas as relações respeitam a condição da BCNF .
+
+Todas as relações estão em BCNF.
 
 ---
 
