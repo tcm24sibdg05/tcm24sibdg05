@@ -89,7 +89,6 @@ CREATE TABLE IF NOT EXISTS Penalizacao (
 );
 # DML
 
-```sql
 INSERT INTO Utilizador (nome, tipo, contacto)
 VALUES ('Joana Silva', 'Aluno', 'joana.silva@mail.com');
 
