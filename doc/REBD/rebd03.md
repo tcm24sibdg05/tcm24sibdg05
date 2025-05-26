@@ -26,3 +26,6 @@
 - **DF7:** codigoDePenalizacao → tipo, data, motivo
 
 ---
+
+## Normalização do Esquema Relacional
+
