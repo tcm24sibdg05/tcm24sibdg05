@@ -60,5 +60,5 @@ Está relacionada a empréstimos que originaram a infração.
 
 ---
 
-[< Anterior](rei02.md) | [^ Principal](/../../) | [Próximo >]
+[< Anterior](rebd01.md) | [^ Principal](/../../) | [Próximo >](rebd03.md)
 :--- | :---: | ---: 
