@@ -23,7 +23,7 @@
 - **DF6:** codigo → data, hora, dataDeExpiracao
   
 **PENALIZACAO**(codigo, data, hora, dataDeExpiracao)
-- **DF7:** codigoDePenalizacao → tipo, data, motivo
+- **DF7:** codigo → tipo, data, motivo
 
 ---
 
