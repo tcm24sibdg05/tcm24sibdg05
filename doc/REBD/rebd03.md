@@ -19,7 +19,7 @@
 **EMPRESTIMO**(dataDeInicio, codigo, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
 - **DF5:** codigo → dataDeInicio, dataDeDevoluçãoPrevista, dataDeDevolucaoReal, renovacao, numeroDeUtilizador, codigoInterno, numeroDeCopia, codigoISBN
   
-**RESERVA**(codigoDePenalizacao, tipo, data, motivo)
+**RESERVA**(codigo, tipo, data, motivo)
 - **DF6:** codigo → data, hora, dataDeExpiracao
   
 **PENALIZACAO**(codigo, data, hora, dataDeExpiracao)
