@@ -137,11 +137,11 @@ VALUES ('Multa', '2025-06-10', 'Atraso na devolução', 1);
 -- Ver localização de um exemplar
 SELECT corredor, estante, prateleira 
 FROM LOCALIZACAO 
-WHERE codigoISBN = '1234567890123' AND numeroDeCopia = 1;
+WHERE codigoISBN = '9781234567897' AND numeroDeCopia = 1;
 -- Listar todos os exemplares localizados em um corredor específico
 SELECT * 
 FROM LOCALIZACAO 
-WHERE corredor = 'A';
+WHERE corredor = 'B';
 ```
 
 
