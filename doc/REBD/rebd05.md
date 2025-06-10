@@ -4,6 +4,7 @@
 
 # DDL
 ```sql
+CREATE DATABASE biblioteca;
 USE biblioteca;
 
 DROP TABLE IF EXISTS Penalizacao;
