@@ -12,6 +12,7 @@ export class LivroRepository extends DefaultCrudRepository<
 
   public readonly possui: HasManyRepositoryFactory<Exemplares, typeof Livro.prototype.codigoISBN>;
 
+
   constructor(
     @inject('datasources.db') dataSource: DbDataSource, @repository.getter('ExemplaresRepository') protected exemplaresRepositoryGetter: Getter<ExemplaresRepository>,
   ) {

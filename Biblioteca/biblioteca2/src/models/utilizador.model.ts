@@ -29,6 +29,11 @@ export class Utilizador extends Entity {
   })
   contacto: string;
 
+  @hasMany(() => Emprestimo, {keyTo: 'numeroDeUtilizador'})
+  efetuaEmprestimo: Emprestimo[];
+
+  @hasMany(() => Reserva, {keyTo: 'numeroDeUtilizador'})
+  efetuaReserva: Reserva[];
 
   constructor(data?: Partial<Utilizador>) {
     super(data);
