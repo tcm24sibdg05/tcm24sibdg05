@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ms@040576
+      MYSQL_DATABASE: biblioteca
+      MYSQL_USER: sa_msa
+      MYSQL_PASSWORD: ms@040576
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+volumes:
+  db_data:
