@@ -16,7 +16,10 @@ O nosso objetivo é desenvolver um sistema de base de dados para melhorar a gest
 * Docker
 * NodeJS
 * MySQL
+## FrameWorks and Libraries
 
+* Loopback 4
+* 
 ## Relatórios
 
 ### Proposta
