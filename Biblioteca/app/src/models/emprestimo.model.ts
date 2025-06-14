@@ -1,4 +1,7 @@
-import {Entity, model, property} from '@loopback/repository';
+import {Entity, model, property, belongsTo} from '@loopback/repository';
+import {Utilizador} from './utilizador.model';
+import {Funcionario} from './funcionario.model';
+import { Livro } from './livro.model';
 
 @model()
 export class Emprestimo extends Entity {
@@ -33,22 +36,13 @@ export class Emprestimo extends Entity {
   })
   renovacao: boolean;
 
-  @property({
-    type: 'number',
-    required: true,
-  })
+  @belongsTo(() => Utilizador, {name: 'utilizador'})
   numeroDeUtilizador: number;
 
-  @property({
-    type: 'number',
-    required: true,
-  })
+  @belongsTo(() => Funcionario, {name: 'funcionario'})
   codigoInterno: number;
 
-  @property({
-    type: 'string',
-    required: true,
-  })
+  @belongsTo(() => Livro, {name: 'livro'})
   codigoISBN: string;
 
   @property({
@@ -57,20 +51,22 @@ export class Emprestimo extends Entity {
   })
   numeroDeCopia: number;
 
-  @property({
-    type: 'string',
-  })
-  livro_emprestimo_fk?: string;
+  
 
-  @property({
-    type: 'number',
-  })
-  funcionario_emprestimo_fk?: number;
+  // @property({
+  //   type: 'string',
+  // })
+  // livro_emprestimo_fk?: string;
 
-  @property({
-    type: 'number',
-  })
-  utilizador_emprestimo_fk?: number;
+  // @property({
+  //   type: 'number',
+  // })
+  // funcionario_emprestimo_fk?: number;
+
+  // @property({
+  //   type: 'number',
+  // })
+  // utilizador_emprestimo_fk?: number;
 
   constructor(data?: Partial<Emprestimo>) {
     super(data);

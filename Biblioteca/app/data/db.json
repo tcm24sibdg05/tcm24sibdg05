@@ -2,7 +2,7 @@
   "ids": {
     "Utilizador": 2,
     "Livro": 124,
-    "Funcionario": 2,
+    "Funcionario": 3,
     "Exemplar": 8,
     "Emprestimo": 5
   },
@@ -15,15 +15,17 @@
       "aaaa": "{\"codigoISBN\":\"aaaa\",\"titulo\":\"aa\",\"autor\":\"a\",\"anoDePublicacao\":24,\"edicao\":\"aaaa\",\"genero\":\"aa\"}"
     },
     "Funcionario": {
-      "1": "{\"nome\":\"Alberto\",\"funcao\":\"zelador\",\"codigoInterno\":1}"
+      "1": "{\"nome\":\"Alberto\",\"funcao\":\"zelador\",\"codigoInterno\":1}",
+      "2": "{\"nome\":\"Marcelo\",\"funcao\":\"Diarista\",\"codigoInterno\":2}"
     },
     "Exemplar": {
       "1": "{\"numeroDeCopia\":1,\"codigoISBN\":\"aaaa\",\"estado\":\"Disponivel\",\"livro_exemplar_fk\":\"aaaa\"}",
       "3": "{\"numeroDeCopia\":3,\"codigoISBN\":\"123\",\"estado\":\"Disponivel\",\"livro_exemplar_fk\":\"123\"}"
     },
     "Emprestimo": {
-      "3": "{\"dataDeInicio\":\"2025-06-14T18:38:46.280Z\",\"dataDeDevolucaoPrevista\":\"2025-06-24T18:38:46.280Z\",\"renovacao\":true,\"numeroDeUtilizador\":1,\"codigoInterno\":1,\"codigoISBN\":\"123\",\"numeroDeCopia\":3,\"livro_emprestimo_fk\":\"123\",\"funcionario_emprestimo_fk\":1,\"utilizador_emprestimo_fk\":1,\"codigoEmprestimo\":3}",
-      "4": "{\"dataDeInicio\":\"2025-06-14T18:38:46.280Z\",\"dataDeDevolucaoPrevista\":\"2025-06-24T18:38:46.280Z\",\"renovacao\":true,\"numeroDeUtilizador\":1,\"codigoInterno\":1,\"codigoISBN\":\"123\",\"numeroDeCopia\":3,\"livro_emprestimo_fk\":\"123\",\"funcionario_emprestimo_fk\":1,\"utilizador_emprestimo_fk\":1,\"codigoEmprestimo\":4}"
+      "2": "{\"dataDeInicio\":\"2025-06-14T19:21:50.292Z\",\"dataDeDevolucaoPrevista\":\"2025-06-24T19:21:50.292Z\",\"renovacao\":true,\"numeroDeUtilizador\":1,\"codigoInterno\":1,\"codigoISBN\":\"123\",\"numeroDeCopia\":3,\"codigoEmprestimo\":2}",
+      "3": "{\"dataDeInicio\":\"2025-06-14T19:29:56.715Z\",\"dataDeDevolucaoPrevista\":\"2025-06-24T19:29:56.715Z\",\"renovacao\":true,\"numeroDeUtilizador\":1,\"codigoInterno\":1,\"codigoISBN\":\"aaaa\",\"numeroDeCopia\":1,\"codigoEmprestimo\":3}",
+      "4": "{\"dataDeInicio\":\"2025-06-14T19:34:44.699Z\",\"dataDeDevolucaoPrevista\":\"2025-06-14T19:34:44.699Z\",\"dataDeDevolucaoReal\":\"2025-06-14T19:34:44.699Z\",\"renovacao\":true,\"numeroDeUtilizador\":1,\"codigoInterno\":2,\"codigoISBN\":\"123\",\"numeroDeCopia\":3,\"codigoEmprestimo\":4}"
     }
   }
 }

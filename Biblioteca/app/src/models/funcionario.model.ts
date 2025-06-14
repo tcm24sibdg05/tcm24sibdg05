@@ -22,7 +22,7 @@ export class Funcionario extends Entity {
   })
   funcao: string;
 
-  @hasMany(() => Emprestimo, {keyTo: 'funcionario_emprestimo_fk'})
+  @hasMany(() => Emprestimo, {keyTo: 'codigoInterno'})
   emprestimos: Emprestimo[];
 
   constructor(data?: Partial<Funcionario>) {

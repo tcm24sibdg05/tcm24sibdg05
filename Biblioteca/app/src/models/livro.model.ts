@@ -41,10 +41,10 @@ export class Livro extends Entity {
   })
   genero: string;
 
-  @hasMany(() => Exemplar, {keyTo: 'livro_exemplar_fk'})
+  @hasMany(() => Exemplar, {keyTo: 'codigoISBN'})
   exemplares: Exemplar[];
 
-  @hasMany(() => Emprestimo, {keyTo: 'livro_emprestimo_fk'})
+  @hasMany(() => Emprestimo, {keyTo: 'codigoISBN'})
   emprestimos: Emprestimo[];
 
   constructor(data?: Partial<Livro>) {

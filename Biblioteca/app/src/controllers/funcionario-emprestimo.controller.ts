@@ -60,7 +60,7 @@ export class FuncionarioEmprestimoController {
         'application/json': {
           schema: getModelSchemaRef(Emprestimo, {
             title: 'NewEmprestimoInFuncionario',
-            exclude: ['codigoEmprestimo', 'funcionario_emprestimo_fk']
+            exclude: ['codigoEmprestimo','codigoInterno']
           }),
         },
       },

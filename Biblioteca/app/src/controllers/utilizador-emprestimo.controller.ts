@@ -60,7 +60,7 @@ export class UtilizadorEmprestimoController {
         'application/json': {
           schema: getModelSchemaRef(Emprestimo, {
             title: 'NewEmprestimoInUtilizador',
-            exclude: ['codigoEmprestimo', 'utilizador_emprestimo_fk']
+            exclude: ['codigoEmprestimo', 'numeroDeUtilizador']
           }),
         },
       },

@@ -60,7 +60,7 @@ export class LivroEmprestimoController {
         'application/json': {
           schema: getModelSchemaRef(Emprestimo, {
             title: 'NewEmprestimoInLivro',
-            exclude: ['codigoEmprestimo', 'livro_emprestimo_fk', 'funcionario_emprestimo_fk', 'utilizador_emprestimo_fk']
+            exclude: ['codigoEmprestimo', 'codigoISBN']
           }),
         },
       },

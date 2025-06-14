@@ -60,7 +60,7 @@ export class LivroExemplarController {
         'application/json': {
           schema: getModelSchemaRef(Exemplar, {
             title: 'NewExemplarInLivro',
-            exclude: ['livro_exemplar_fk']
+            exclude: ['codigoISBN']
           }),
         },
       },
