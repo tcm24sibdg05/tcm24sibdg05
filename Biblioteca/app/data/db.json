@@ -3,7 +3,7 @@
     "Utilizador": 2,
     "Livro": 2,
     "Funcionario": 2,
-    "Exemplar": 2
+    "Exemplar": 5
   },
   "models": {
     "Utilizador": {
@@ -16,7 +16,8 @@
       "1": "{\"nome\":\"Alberto\",\"funcao\":\"zelador\",\"codigoInterno\":1}"
     },
     "Exemplar": {
-      "1": "{\"numeroDeCopia\":1,\"codigoISBN\":\"aaaa\",\"estado\":\"Disponivel\"}"
+      "1": "{\"numeroDeCopia\":1,\"codigoISBN\":\"aaaa\",\"estado\":\"Disponivel\",\"livro_exemplar_fk\":\"1\"}",
+      "2": "{\"numeroDeCopia\":2,\"codigoISBN\":\"aaaa\",\"estado\":\"Disponivel\",\"livro_exemplar_fk\":\"1\"}"
     }
   }
 }

@@ -22,6 +22,10 @@ export class Exemplar extends Entity {
   })
   estado: string;
 
+  @property({
+    type: 'string',
+  })
+  livro_exemplar_fk?: string;
 
   constructor(data?: Partial<Exemplar>) {
     super(data);
