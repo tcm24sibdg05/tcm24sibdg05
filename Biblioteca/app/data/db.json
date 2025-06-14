@@ -4,7 +4,10 @@
     "Livro": 124,
     "Funcionario": 3,
     "Exemplar": 8,
-    "Emprestimo": 5
+    "Emprestimo": 5,
+    "Localizacao": 124,
+    "Penalizacao": 2,
+    "Reserva": 2
   },
   "models": {
     "Utilizador": {
@@ -26,6 +29,15 @@
       "2": "{\"dataDeInicio\":\"2025-06-14T19:21:50.292Z\",\"dataDeDevolucaoPrevista\":\"2025-06-24T19:21:50.292Z\",\"renovacao\":true,\"numeroDeUtilizador\":1,\"codigoInterno\":1,\"codigoISBN\":\"123\",\"numeroDeCopia\":3,\"codigoEmprestimo\":2}",
       "3": "{\"dataDeInicio\":\"2025-06-14T19:29:56.715Z\",\"dataDeDevolucaoPrevista\":\"2025-06-24T19:29:56.715Z\",\"renovacao\":true,\"numeroDeUtilizador\":1,\"codigoInterno\":1,\"codigoISBN\":\"aaaa\",\"numeroDeCopia\":1,\"codigoEmprestimo\":3}",
       "4": "{\"dataDeInicio\":\"2025-06-14T19:34:44.699Z\",\"dataDeDevolucaoPrevista\":\"2025-06-14T19:34:44.699Z\",\"dataDeDevolucaoReal\":\"2025-06-14T19:34:44.699Z\",\"renovacao\":true,\"numeroDeUtilizador\":1,\"codigoInterno\":2,\"codigoISBN\":\"123\",\"numeroDeCopia\":3,\"codigoEmprestimo\":4}"
+    },
+    "Localizacao": {
+      "123": "{\"codigoISBN\":\"123\",\"corredor\":\"A\",\"estante\":\"C\",\"prateleira\":\"E\",\"numeroDeCopia\":3}"
+    },
+    "Penalizacao": {
+      "1": "{\"tipo\":\"Suspensão\",\"data\":\"2025-06-14T20:30:02.315Z\",\"motivo\":\"entregou três dias depois do prazo\",\"codigoEmprestimo\":2,\"codigoDePenalizacao\":1}"
+    },
+    "Reserva": {
+      "1": "{\"data\":\"2025-06-14T20:42:53.612Z\",\"hora\":\"2025-06-14T20:42:53.612Z\",\"dataDeExpiracao\":\"2025-06-24T20:42:53.612Z\",\"numeroDeUtilizador\":1,\"codigo\":1}"
     }
   }
 }
