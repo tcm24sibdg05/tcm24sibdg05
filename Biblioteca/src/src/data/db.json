@@ -1,10 +1,14 @@
 {
   "ids": {
-    "Utilizador": 2
+    "Utilizador": 2,
+    "Livro": 2
   },
   "models": {
     "Utilizador": {
       "1": "{\"nome\":\"string\",\"tipo\":\"string\",\"contacto\":\"string\",\"numeroDeUtilizador\":1}"
+    },
+    "Livro": {
+      "aaaa": "{\"codigoISBN\":\"aaaa\",\"titulo\":\"aa\",\"autor\":\"a\",\"anoDePublicacao\":24,\"edicao\":\"aaaa\",\"genero\":\"aa\"}"
     }
   }
 }
