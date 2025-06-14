@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "Utilizador": 2
+  },
+  "models": {
+    "Utilizador": {
+      "1": "{\"nome\":\"string\",\"tipo\":\"string\",\"contacto\":\"string\",\"numeroDeUtilizador\":1}"
+    }
+  }
+}
