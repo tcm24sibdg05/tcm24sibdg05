@@ -15,3 +15,5 @@ export * from './penalizacao.controller';
 export * from './emprestimo-penalizacao.controller';
 export * from './reserva.controller';
 export * from './utilizador-reserva.controller';
+export * from './livro-reserva.controller';
+export * from './funcionario-reserva.controller';

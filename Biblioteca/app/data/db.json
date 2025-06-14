@@ -7,7 +7,7 @@
     "Emprestimo": 5,
     "Localizacao": 124,
     "Penalizacao": 2,
-    "Reserva": 2
+    "Reserva": 4
   },
   "models": {
     "Utilizador": {
@@ -37,7 +37,9 @@
       "1": "{\"tipo\":\"Suspensão\",\"data\":\"2025-06-14T20:30:02.315Z\",\"motivo\":\"entregou três dias depois do prazo\",\"codigoEmprestimo\":2,\"codigoDePenalizacao\":1}"
     },
     "Reserva": {
-      "1": "{\"data\":\"2025-06-14T20:42:53.612Z\",\"hora\":\"2025-06-14T20:42:53.612Z\",\"dataDeExpiracao\":\"2025-06-24T20:42:53.612Z\",\"numeroDeUtilizador\":1,\"codigo\":1}"
+      "1": "{\"data\":\"2025-06-14T20:42:53.612Z\",\"hora\":\"2025-06-14T20:42:53.612Z\",\"dataDeExpiracao\":\"2025-06-24T20:42:53.612Z\",\"numeroDeUtilizador\":1,\"codigo\":1}",
+      "2": "{\"data\":\"2025-06-14T20:48:38.346Z\",\"hora\":\"2025-06-14T20:48:38.346Z\",\"dataDeExpiracao\":\"2025-06-14T20:48:38.346Z\",\"numeroDeUtilizador\":1,\"codigoISBN\":\"123\",\"codigo\":2}",
+      "3": "{\"data\":\"2025-06-14T20:52:45.025Z\",\"hora\":\"2025-06-14T20:52:45.025Z\",\"dataDeExpiracao\":\"2025-06-14T20:52:45.025Z\",\"numeroDeUtilizador\":1,\"codigoISBN\":\"123\",\"codigoInterno\":1,\"codigo\":3}"
     }
   }
 }
