@@ -230,4 +230,7 @@ JOIN Livro l ON ex.codigoISBN = l.codigoISBN
 JOIN Localizacao loc ON ex.codigoISBN = loc.codigoISBN AND ex.numeroDeCopia = loc.numeroDeCopia
 WHERE ex.estado = 'Danificado';
 ```
+---
 
+| [< Previous](RPF03.md) | [^ Main](../../README.md) | [Next >](RPF05.md) |
+|:----------------------------------:|:----------------------------------:|:----------------------------------:|
