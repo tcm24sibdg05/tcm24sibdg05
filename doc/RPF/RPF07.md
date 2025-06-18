@@ -161,7 +161,7 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 
 ---
 
-| [< Anterior](RPF06.md) | [^ Principal](../../README.md) |
+| [< Anterior](RPF06.md) | [^ Principal](../../README.md) | |
 |:----------------------------------:|:----------------------------------:|:----------------------------------:|
 
 
