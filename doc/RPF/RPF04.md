@@ -232,5 +232,5 @@ WHERE ex.estado = 'Danificado';
 ```
 ---
 
-| [< Previous](RPF03.md) | [^ Main](../../README.md) | [Next >](RPF05.md) |
+| [< Anterior](RPF03.md) | [^ Principal](../../README.md) | [Próximo >](RPF05.md) |
 |:----------------------------------:|:----------------------------------:|:----------------------------------:|
