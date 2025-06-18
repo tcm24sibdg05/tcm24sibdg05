@@ -17,10 +17,27 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 ---
 ### EMPRESTIMOS
 - Inclui todos os métodos CRUD: `GET`, `POST`, `PUT`, `DELETE`.
-- Justificação: os dados dos emprestimos são geridos diretamente pela equipa administrativa.
+- | Endpoint | Justificação |
+|----------|--------------|
+| `GET /exemplar.controller` | Consulta geral. |
+| `GET /emprestimos/:id` | Consulta específica de um emprestimo. |
+| `GET /emprestimos/:id/penalizacaos` ou com `filter` | Obtenção de emprestimos por penalização. |
+| `POST`, `PUT`, `DELETE` | Incluídos porque os emprestimos são registados, editados ou removidos diretamente pelos administradores.
 <details>
 <summary><strong>EMPRESTIMOS – Ver print dos endpoints</strong></summary>
 
 | Print EMPRESTIMO | Print Controller | 
+|-------|-------|
+| <img src="../img/emprestimo.png" alt="p-c" width="250" /> | <img src="../img/endpointEmprestimo.png" alt="m-c" width="600" /> | 
+
+### Exemplars
+- Inclui todos os métodos CRUD: `GET`, `POST`, `PUT`, `DELETE`.
+| Endpoint | Justificação |
+|----------|--------------|
+| `GET /exemplar.controller` | Consulta geral. |
+| `GET /exemplar.controller/:id` | Consulta específica de um exemplar, alteração ou atualização. |
+| `GET /exemplars/:id/localizacaos` ou com `filter` | Obtenção de exemplares por localização. |
+| `POST`, `PUT`, `DELETE` | Incluídos porque os exemplares são registados, editados ou removidos diretamente pelos administradores.
+| Print EXEMPLAR | Print Controller | 
 |-------|-------|
 | <img src="../img/emprestimo.png" alt="p-c" width="250" /> | <img src="../img/endpointEmprestimo.png" alt="m-c" width="600" /> | 
