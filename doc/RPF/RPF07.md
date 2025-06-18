@@ -20,7 +20,7 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
   
 | Endpoint | Justificação |
 |----------|--------------|
-| `GET /exemplar.controller` | Consulta geral. |
+| `GET /emprestimo.controller` | Consulta geral. |
 | `GET /emprestimos/:id` | Consulta específica de um emprestimo. |
 | `GET /emprestimos/:id/penalizacaos` ou com `filter` | Obtenção de emprestimos por penalização. |
 | `POST`, `PUT`, `DELETE` | Incluídos porque os emprestimos são registados, editados ou removidos diretamente pelos administradores.
@@ -30,7 +30,7 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 | Print EMPRESTIMO | Print Controller | 
 |-------|-------|
 | <img src="../img/emprestimo.png" alt="p-c" width="250" /> | <img src="../img/endpointEmprestimo.png" alt="m-c" width="600" /> | 
-
+</details>
 ---
 
 ### Exemplars
