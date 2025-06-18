@@ -18,3 +18,9 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 ### EMPRESTIMOS
 - Inclui todos os métodos CRUD: `GET`, `POST`, `PUT`, `DELETE`.
 - Justificação: os dados dos emprestimos são geridos diretamente pela equipa administrativa.
+<details>
+<summary><strong>EMPRESTIMOS – Ver print dos endpoints</strong></summary>
+
+| Print EMPRESTIMO | Print Controller | 
+|-------|-------|
+| <img src="../img/emprestimo.png" alt="p-c" width="250" /> | <img src="../img/endpointEmprestimo.png" alt="m-c" width="600" /> | 
