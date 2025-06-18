@@ -46,4 +46,4 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 
 | Print EXEMPLAR | Print Controller | 
 |-------|-------|
-| <img src="../img/emprestimo.png" alt="p-c" width="250" /> | <img src="../img/endpointEmprestimo.png" alt="m-c" width="600" /> | 
+| <img src="../img/exemplar.png" alt="p-c" width="250" /> | <img src="../img/endpointExemplar.png" alt="m-c" width="600" /> | 
