@@ -159,3 +159,9 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 | **DELETE**       | Remoção definitiva de recurso                                                | Violar integridade                                                                    | `DELETE /reservas/id`                         |
 
 
+---
+
+| [< Anterior](RPF06.md) | [^ Principal](../../README.md) |  |
+|:----------------------------------:|:----------------------------------:|:----------------------------------:|
+
+
