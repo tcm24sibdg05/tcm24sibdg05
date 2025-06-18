@@ -3,3 +3,18 @@
 ---
 
 ## Organização Geral
+A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARIOS`, `LIVROS`, `LOCALIZACAOS`, `PENALIZACAOS`, `RESERVAS`, `UTILIZADORS`)
+> **Nota:** Todos os métodos não utilizados foram deliberadamente omitidos da coleção, tendo sido apenas implementados os que respondem aos objetivos funcionais e à lógica do domínio da oficina.
+---
+- [EMPRESTIMOS](#EMPRESTIMOS)
+- [EXEMPLARS](#EXEMPLARS)
+- [FUNCIONARIOS](#FUNCIONARIOS)
+- [LIVROS](#LIVROS)
+- [LOCALIZACAOS](#LOCALIZACAOS)
+- [PENALIZACAOS](#PENALIZACAOS)
+- [RESERVAS](#RESERVAS)
+- [UTILIZADORS](#UTILIZADORS)
+---
+### EMPRESTIMOS
+- Inclui todos os métodos CRUD: `GET`, `POST`, `PUT`, `DELETE`.
+- Justificação: os dados dos emprestimos são geridos diretamente pela equipa administrativa.
