@@ -17,7 +17,8 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 ---
 ### EMPRESTIMOS
 - Inclui todos os métodos CRUD: `GET`, `POST`, `PUT`, `DELETE`.
-- | Endpoint | Justificação |
+  
+| Endpoint | Justificação |
 |----------|--------------|
 | `GET /exemplar.controller` | Consulta geral. |
 | `GET /emprestimos/:id` | Consulta específica de um emprestimo. |
@@ -30,8 +31,11 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 |-------|-------|
 | <img src="../img/emprestimo.png" alt="p-c" width="250" /> | <img src="../img/endpointEmprestimo.png" alt="m-c" width="600" /> | 
 
+---
+
 ### Exemplars
 - Inclui todos os métodos CRUD: `GET`, `POST`, `PUT`, `DELETE`.
+  
 | Endpoint | Justificação |
 |----------|--------------|
 | `GET /exemplar.controller` | Consulta geral. |
