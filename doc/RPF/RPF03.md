@@ -61,5 +61,5 @@ Todas as relações estão em BCNF.
 
 ---
 
-| [< Previous](RPF02.md) | [^ Main](../../README.md) | [Next >](RPF04.md) |
+| [< Anterior](RPF02.md) | [^ Principal](../../README.md) | [Próximo >](RPF04.md) |
 |:----------------------------------:|:----------------------------------:|:----------------------------------:|
