@@ -16,8 +16,8 @@
 **FUNCIONARIO**(nome, codigoInterno, funcao)
 - **DF4:** codigoInterno →  nome, funcao
 
-**EMPRESTIMO**(dataDeInicio, codigoesmprestimo, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
-- **DF5:** codigoemprestimo → dataDeInicio, dataDeDevoluçãoPrevista, dataDeDevolucaoReal, renovacao, numeroDeUtilizador, codigoInterno, numeroDeCopia, codigoISBN
+**EMPRESTIMO**(dataDeInicio, codigoEsmprestimo, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
+- **DF5:** codigoEmprestimo → dataDeInicio, dataDeDevoluçãoPrevista, dataDeDevolucaoReal, renovacao, numeroDeUtilizador, codigoInterno, numeroDeCopia, codigoISBN
   
 **RESERVA**(codigo, tipo, data, motivo)
 - **DF6:** codigo → data, hora, dataDeExpiracao
