@@ -31,6 +31,7 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 |-------|-------|
 | <img src="../img/emprestimo.png" alt="p-c" width="250" /> | <img src="../img/endpointEmprestimo.png" alt="m-c" width="600" /> | 
 </details>
+
 ---
 
 ### Exemplars
@@ -42,6 +43,7 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 | `GET /exemplar.controller/:id` | Consulta específica de um exemplar, alteração ou atualização. |
 | `GET /exemplars/:id/localizacaos` ou com `filter` | Obtenção de exemplares por localização. |
 | `POST`, `PUT`, `DELETE` | Incluídos porque os exemplares são registados, editados ou removidos diretamente pelos administradores.
+
 | Print EXEMPLAR | Print Controller | 
 |-------|-------|
 | <img src="../img/emprestimo.png" alt="p-c" width="250" /> | <img src="../img/endpointEmprestimo.png" alt="m-c" width="600" /> | 
