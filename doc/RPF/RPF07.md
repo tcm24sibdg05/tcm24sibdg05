@@ -47,3 +47,20 @@ A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARI
 | Print EXEMPLAR | Print Controller | 
 |-------|-------|
 | <img src="../img/exemplar.png" alt="p-c" width="250" /> | <img src="../img/endpointExemplar.png" alt="m-c" width="600" /> | 
+
+---
+
+### FUNCIONARIOS
+- Inclui todos os métodos CRUD: `GET`, `POST`, `PUT`, `DELETE`.
+| Endpoint | Justificação |
+|----------|--------------|
+| `GET /funcionarios.controller` | Consulta geral. |
+| `GET /funcionarios/:id` | Consulta específica de um exemplar, alteração ou atualização. |
+| `GET /funcionarios/:id/emprestimos` ou com `filter` | Obtenção de funcionarios por emprestimos. |
+| `GET /funcionarios/:id/reservas` ou com `filter` | Obtenção de funcionarios por reserva. |
+| `POST`, `PUT`, `DELETE` | Incluídos porque os exemplares são registados, editados ou removidos diretamente pelos administradores.
+
+| Print FUNCIONARIOS | Print Controller | 
+|-------|-------|
+| <img src="../img/funcionario.png" alt="p-c" width="250" /> | <img src="../img/endpointFuncionario.png" alt="m-c" width="600" /> | 
+
