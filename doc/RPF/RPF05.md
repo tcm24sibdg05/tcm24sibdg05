@@ -146,6 +146,6 @@ WHERE corredor = 'A';
 
 ---
 
-| [< Previous](RPF04.md) | [^ Main](../../README.md) | [Next >](RPF06.md) |
+| [< Anterior](RPF04.md) | [^ Principal](../../README.md) | [Próximo >](RPF06.md) |
 |:----------------------------------:|:----------------------------------:|:----------------------------------:|
 
