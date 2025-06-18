@@ -2,7 +2,7 @@
 
 ### Diagrama Entidade-Associação (EA)
 
-<img ![Biblioteca](https://github.com/user-attachments/assets/0d4fb004-bfab-4c73-947b-822267a62893) />
+![Biblioteca](https://github.com/user-attachments/assets/0d4fb004-bfab-4c73-947b-822267a62893)
 
 # Entidades e Associações
 
