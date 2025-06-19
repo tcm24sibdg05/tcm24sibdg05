@@ -9,10 +9,8 @@ O nosso objetivo é desenvolver um sistema de base de dados para melhorar a gest
 ## Organização do Repositório
 
 * Os **relatórios** estão em [Pasta doc](doc/).
-- Code is in the `Biblioteca` folder.
-- Report chapters are in the `docs` folder.
+* O **código** está na [Pasta Bilioteca](biblioteca/).
 
-| [Aceder à sub-pasta /Biblioteca](Biblioteca/) |
 |:----------------------------------:|
 
 ## Tecnologias Utilizadas 
