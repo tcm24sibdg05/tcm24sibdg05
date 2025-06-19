@@ -3,7 +3,8 @@
 ---
 
 ## Organização Geral
-A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARIOS`, `LIVROS`, `LOCALIZACAOS`, `PENALIZACAOS`, `RESERVAS`, `UTILIZADORS`)
+---
+- A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARIOS`, `LIVROS`, `LOCALIZACAOS`, `PENALIZACAOS`, `RESERVAS`, `UTILIZADORS`)
 ---
 - [EMPRESTIMOS](#EMPRESTIMOS)
 - [EXEMPLARS](#EXEMPLARS)
