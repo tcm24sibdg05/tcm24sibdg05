@@ -2,7 +2,13 @@ import {Entity, model, property, belongsTo} from '@loopback/repository';
 import { Exemplar } from './exemplar.model';
 
 
-@model()
+@model({
+  settings: {
+    mysql: {
+      table: 'localizacao',
+    }
+  }
+})
 export class Localizacao extends Entity {
   @property({
     type: 'string',

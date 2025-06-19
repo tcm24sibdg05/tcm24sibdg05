@@ -36,8 +36,7 @@ export class LocalizacaoController {
       content: {
         'application/json': {
           schema: getModelSchemaRef(Localizacao, {
-            title: 'NewLocalizacao',
-            exclude: ['codigoISBN'],
+            title: 'NewLocalizacao'
           }),
         },
       },

@@ -36,8 +36,7 @@ export class LivroController {
       content: {
         'application/json': {
           schema: getModelSchemaRef(Livro, {
-            title: 'NewLivro',
-            exclude:['codigoISBN']
+            title: 'NewLivro'
           }),
         },
       },

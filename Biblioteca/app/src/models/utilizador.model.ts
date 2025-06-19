@@ -2,7 +2,13 @@ import {Entity, model, property, hasMany} from '@loopback/repository';
 import {Emprestimo} from './emprestimo.model';
 import {Reserva} from './reserva.model';
 
-@model()
+@model({
+  settings: {
+    mysql: {
+      table: 'utilizador',
+    }
+  }
+})
 export class Utilizador extends Entity {
   @property({
     type: 'number',

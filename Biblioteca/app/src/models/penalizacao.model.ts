@@ -1,7 +1,13 @@
 import {Entity, model, property, belongsTo} from '@loopback/repository';
 import { Emprestimo } from './emprestimo.model';
 
-@model()
+@model({
+  settings: {
+    mysql: {
+      table: 'penalizacao',
+    }
+  }
+})
 export class Penalizacao extends Entity {
   @property({
     type: 'number',

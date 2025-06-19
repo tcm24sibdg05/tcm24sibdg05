@@ -4,7 +4,13 @@ import {Funcionario} from './funcionario.model';
 import { Livro } from './livro.model';
 import {Penalizacao} from './penalizacao.model';
 
-@model()
+@model({
+  settings: {
+    mysql: {
+      table: 'emprestimo',
+    }
+  }
+})
 export class Emprestimo extends Entity {
   @property({
     type: 'number',

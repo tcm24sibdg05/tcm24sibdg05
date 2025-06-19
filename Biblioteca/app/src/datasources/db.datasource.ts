@@ -1,12 +1,25 @@
 import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
 
+// const config = {
+//   name: 'db',
+//   connector: 'memory',
+//   localStorage: '',
+//   file: './data/db.json'
+// };
+
+// mysql
 const config = {
   name: 'db',
-  connector: 'memory',
-  localStorage: '',
-  file: './data/db.json'
+  connector: 'mysql',
+  url: '',
+  host: 'localhost',
+  port: 3306,
+  user: 'root',
+  password: 'ms@040576',
+  database: 'biblioteca'
 };
+
 
 // Observe application's life cycle to disconnect the datasource when
 // application is stopped. This allows the application to be shut down

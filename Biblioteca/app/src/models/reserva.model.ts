@@ -3,7 +3,13 @@ import { Utilizador } from './utilizador.model';
 import { Livro } from './livro.model';
 import { Funcionario } from './funcionario.model';
 
-@model()
+@model({
+  settings: {
+    mysql: {
+      table: 'reserva',
+    }
+  }
+})
 export class Reserva extends Entity {
   @property({
     type: 'number',
