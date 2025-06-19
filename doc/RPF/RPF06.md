@@ -10,8 +10,7 @@
 
 **Solução**: Criar adição manual do `@belongsTo()` nos modelos e repositório.
 ### Entidade `Exemplares`
-**Problema:** Na tabela exemplar, temos a chave primária composta por codigoISBN e numeroDeCopia. No entanto, o campo numeroDeCopia não deve se repetir em toda a tabela — ou seja, não pode haver exemplares com o mesmo numeroDeCopia, mesmo que tenham codigoISBN diferentes. Cada número de cópia deve ser único, independentemente do livro ao qual está associado.
-
+**Problema:** Na tabela exemplar, temos a chave primária composta por codigoISBN e numeroDeCopia. No entanto, o campo numeroDeCopia deve se repetir em toda a tabela — ou seja, pode haver exemplares com o mesmo numeroDeCopia, mesmo que tenham codigoISBN diferentes. 
 **Solução**: Implementação do codigoISBN como chave primária também.
 
 ### MySQL host
