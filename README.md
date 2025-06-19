@@ -11,13 +11,12 @@ O nosso objetivo é desenvolver um sistema de base de dados para melhorar a gest
 * Os **relatórios** estão em [Pasta doc](doc/).
 * O **código** está na [Pasta Bilioteca](Biblioteca/).
 
-|:----------------------------------:|
-
 ## Tecnologias Utilizadas 
 
-* Docker
-* NodeJS
+* Node.js
+* LoopBack 4
 * MySQL
+* Postman
 
 ## Relatórios
 
