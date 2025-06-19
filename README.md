@@ -9,7 +9,7 @@ O nosso objetivo é desenvolver um sistema de base de dados para melhorar a gest
 ## Organização do Repositório
 
 * Os **relatórios** estão em [Pasta doc](doc/).
-* O **código** está na [Pasta Bilioteca](biblioteca/).
+* O **código** está na [Pasta Bilioteca](Biblioteca/).
 
 |:----------------------------------:|
 
