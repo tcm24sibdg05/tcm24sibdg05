@@ -29,6 +29,8 @@ O nosso objetivo é desenvolver um sistema de base de dados para melhorar a gest
 * REI: [Relatório de Especificação de Informação](doc/REI/rei00.md)
 ### Relatório de Especificação da Base de Dados
 * REBD: [Relatório de Especificação da Base de Dados](doc/REBD/rebd00.md)
+### Relatório de Produto e Apresentação
+* REBD: [Relatório de Produto e Apresentação](doc/RPF/RPF00.md)
 
 ## Grupo
 * Catarina Pinto Moutinho [@A044887](https://github.com/A044887)
