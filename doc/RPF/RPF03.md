@@ -16,14 +16,14 @@
 **FUNCIONARIO**(nome, codigoInterno, funcao)
 - **DF4:** codigoInterno →  nome, funcao
 
-**EMPRESTIMO**(dataDeInicio, codigo, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
-- **DF5:** codigo → dataDeInicio, dataDeDevoluçãoPrevista, dataDeDevolucaoReal, renovacao, numeroDeUtilizador, codigoInterno, numeroDeCopia, codigoISBN
+**EMPRESTIMO**(dataDeInicio, codigoEsmprestimo, dataDeDevolucaoPrevista, dataDeDevolucaoReal, renovacao)
+- **DF5:** codigoEmprestimo → dataDeInicio, dataDeDevoluçãoPrevista, dataDeDevolucaoReal, renovacao, numeroDeUtilizador, codigoInterno, numeroDeCopia, codigoISBN
   
 **RESERVA**(codigo, tipo, data, motivo)
 - **DF6:** codigo → data, hora, dataDeExpiracao
   
 **PENALIZACAO**(codigo, data, hora, dataDeExpiracao)
-- **DF7:** codigoDePenalização → tipo, data, motivo
+- **DF7:** codigo → tipo, data, motivo
 
 ---
 
@@ -61,6 +61,5 @@ Todas as relações estão em BCNF.
 
 ---
 
-| [< Previous](rebd02.md) | [^ Main](../../README.md) | [Next >](rebd04.md) |
+| [< Anterior](RPF02.md) | [^ Principal](../../README.md) | [Próximo >](RPF04.md) |
 |:----------------------------------:|:----------------------------------:|:----------------------------------:|
-
