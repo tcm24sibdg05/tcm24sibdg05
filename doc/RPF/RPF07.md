@@ -4,7 +4,6 @@
 
 ## Organização Geral
 A coleção foi organizada por entidades(`EMPRESTIMOS`, `EXEMPLARS`, `FUNCIONARIOS`, `LIVROS`, `LOCALIZACAOS`, `PENALIZACAOS`, `RESERVAS`, `UTILIZADORS`)
-> **Nota:** Todos os métodos não utilizados foram deliberadamente omitidos da coleção, tendo sido apenas implementados os que respondem aos objetivos funcionais e à lógica do domínio da oficina.
 ---
 - [EMPRESTIMOS](#EMPRESTIMOS)
 - [EXEMPLARS](#EXEMPLARS)
